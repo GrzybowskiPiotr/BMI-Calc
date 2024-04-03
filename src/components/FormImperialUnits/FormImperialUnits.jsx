@@ -30,8 +30,8 @@ export function FormImperialUnits({ result, setHeightR }) {
 			<form className={styles.form}>
 				<label htmlFor="height_ft">
 					Height
-					<div className={styles.imperial}>
-						<div className={styles.input_container}>
+					<span className={styles.imperial}>
+						<span className={styles.input_container}>
 							<input
 								className="headingM"
 								type="text"
@@ -43,9 +43,9 @@ export function FormImperialUnits({ result, setHeightR }) {
 									setheight((prev) => ({ ...prev, ft: e.target.value }));
 								}}
 							/>
-							<p>ft</p>
-						</div>
-						<div className={styles.input_container}>
+							<span>ft</span>
+						</span>
+						<span className={styles.input_container}>
 							<input
 								className="headingM"
 								type="text"
@@ -57,14 +57,14 @@ export function FormImperialUnits({ result, setHeightR }) {
 									setheight((prev) => ({ ...prev, in: e.target.value }))
 								}
 							/>
-							<p>in</p>
-						</div>
-					</div>
+							<span>in</span>
+						</span>
+					</span>
 				</label>
 				<label htmlFor="weight_st">
 					Wieght
-					<div className={styles.imperial}>
-						<div className={styles.input_container}>
+					<span className={styles.imperial}>
+						<span className={styles.input_container}>
 							<input
 								className="headingM"
 								type="text"
@@ -76,9 +76,9 @@ export function FormImperialUnits({ result, setHeightR }) {
 									setWeight((prev) => ({ ...prev, st: e.target.value }))
 								}
 							/>
-							<p>st</p>
-						</div>
-						<div className={styles.input_container}>
+							<span>st</span>
+						</span>
+						<span className={styles.input_container}>
 							<input
 								className="headingM"
 								type="text"
@@ -90,9 +90,9 @@ export function FormImperialUnits({ result, setHeightR }) {
 									setWeight((prev) => ({ ...prev, lbs: e.target.value }))
 								}
 							/>
-							<p>lbs</p>
-						</div>
-					</div>
+							<span>lbs</span>
+						</span>
+					</span>
 				</label>
 			</form>
 		</>
