@@ -70,4 +70,4 @@ There was good fun with writing a script to convert units
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/GrzybowskiPiotr)
+- Frontend Mentor - [GrzybowskiPiotr](https://www.frontendmentor.io/profile/GrzybowskiPiotr)
