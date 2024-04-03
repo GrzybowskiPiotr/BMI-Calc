@@ -16,7 +16,7 @@ import LEFTVECTOR from "./assets/images/pattern-curved-line-right.svg";
 
 const BMI_LIMITATIONS = [
 	{
-		icon: "./src/assets/images/icon-gender.svg",
+		icon: "/assets/images/icon-gender.svg",
 		header: "Gender",
 		details:
 			"The development and body fat composition of girls and boys vary with age. Consequently, a child's age and gender are considered when evaluating their BMI.",
