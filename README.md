@@ -29,11 +29,17 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop View:
+
 ![Desktop View 1](./ReadmeImg/Screenshot_1.png)
 ![Desktop View 2](./ReadmeImg/Screenshot_2.png)
 
+Tablet View:
+
 ![Tablet View 1](./ReadmeImg/Screenshot_3.png)
 ![Tablet View 2](./ReadmeImg/Screenshot_4.png)
+
+Mobile View:
 
 ![Mobile View 1](./ReadmeImg/Screenshot_5.png)
 ![Mobile View 2](./ReadmeImg/Screenshot_6.png)
@@ -41,7 +47,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site Demo](https://bmi-calc-react-app.netlify.app/)
 
 ## My process
 
