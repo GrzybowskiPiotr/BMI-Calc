@@ -23,7 +23,7 @@ export function FormMetric({ result, setHeightR }) {
 			<form className={styles.form}>
 				<label htmlFor="height">
 					Height
-					<div className={styles.input_container}>
+					<span className={styles.input_container}>
 						<input
 							className="headingM"
 							type="text"
@@ -34,11 +34,11 @@ export function FormMetric({ result, setHeightR }) {
 							onChange={(e) => handleChange(setHeight, e)}
 						/>
 						<p>cm</p>
-					</div>
+					</span>
 				</label>
 				<label htmlFor="weight">
 					Wieght
-					<div className={styles.input_container}>
+					<span className={styles.input_container}>
 						<input
 							className="headingM"
 							type="text"
@@ -49,7 +49,7 @@ export function FormMetric({ result, setHeightR }) {
 							onChange={(e) => handleChange(setWeight, e)}
 						/>
 						<p>kg</p>
-					</div>
+					</span>
 				</label>
 			</form>
 		</div>
