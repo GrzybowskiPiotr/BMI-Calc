@@ -1,7 +1,7 @@
 import styles from "./FormMetric.module.css";
 import { BmiCalculate } from "../../utils/BmiCalculate";
 import { useEffect, useState } from "react";
-export function FormMetric({ result, setHeightR}) {
+export function FormMetric({ result, setHeightR }) {
 	const [height, setHeight] = useState("");
 	const [weight, setWeight] = useState("");
 
@@ -10,7 +10,7 @@ export function FormMetric({ result, setHeightR}) {
 			let w = weight;
 			let h = height;
 			result(() => BmiCalculate({ w, h }).toFixed(1));
-			setHeightR(height)
+			setHeightR(height);
 		}
 	}, [height, weight, result]);
 
@@ -20,7 +20,7 @@ export function FormMetric({ result, setHeightR}) {
 
 	return (
 		<div className={styles.form}>
-			<form action="" className={styles.form}>
+			<form className={styles.form}>
 				<label htmlFor="height">
 					Height
 					<div className={styles.input_container}>
