@@ -33,7 +33,7 @@ export function FormMetric({ result, setHeightR }) {
 							value={height}
 							onChange={(e) => handleChange(setHeight, e)}
 						/>
-						<p>cm</p>
+						<span>cm</span>
 					</span>
 				</label>
 				<label htmlFor="weight">
@@ -48,7 +48,7 @@ export function FormMetric({ result, setHeightR }) {
 							value={weight}
 							onChange={(e) => handleChange(setWeight, e)}
 						/>
-						<p>kg</p>
+						<span>kg</span>
 					</span>
 				</label>
 			</form>

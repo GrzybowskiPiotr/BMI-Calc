@@ -24,7 +24,7 @@
 	border: none;
 	font-weight: 600;
 }
-.input_container p {
+.input_container span {
 	font-size: 1.5em;
 	font-weight: 600;
 	color: var(--Blue);
@@ -41,7 +41,7 @@
 	.form .input_container{
 		gap: 50%;
 	}
-	.form .input_container p{
+	.form .input_container span{
 		width: 2rem;
 	}
 	.input_container:hover {
