@@ -20,7 +20,6 @@ export function FormImperialUnits({ result, setHeightR }) {
 			let w =
 				ImperialToMetric(weight.st, 6.35) + ImperialToMetric(weight.lbs, 0.45);
 
-
 			result(() => BmiCalculate({ w, h }).toFixed(1));
 			setHeightR(h);
 		}
@@ -28,7 +27,7 @@ export function FormImperialUnits({ result, setHeightR }) {
 
 	return (
 		<>
-			<form action="" className={styles.form}>
+			<form className={styles.form}>
 				<label htmlFor="height_ft">
 					Height
 					<div className={styles.imperial}>
