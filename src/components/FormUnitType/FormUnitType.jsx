@@ -2,7 +2,7 @@ import { InputRadio } from "../InputRadio/InputRadio";
 import styles from "./FormUnitType.module.css";
 export function FormUnitType({ handleTypeChange, type }) {
 	return (
-		<form action="" className={styles.form}>
+		<form className={styles.form}>
 			<label htmlFor="metric">
 				<InputRadio
 					id="metric"

@@ -14,7 +14,7 @@ export function FormContainer() {
 		setType(type);
 		setResult(0);
 	}
-	// extract component from below
+
 	return (
 		<div className={styles.contianer}>
 		
