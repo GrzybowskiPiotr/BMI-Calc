@@ -1,0 +1,74 @@
+.container {
+	width: 100%;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+	align-items: flex-start; */
+	padding: 2rem;
+	background: var(--Hero_Result_bg_gradient);
+	border-radius: 1rem;
+	color: var(--Pure_White);
+	font-size: 0.75rem;
+}
+
+.container .yourBMI{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+
+
+.container p span {
+	font-size: 3rem;
+}
+.container p {
+	text-align: left;
+	line-height: 150%;
+	width: 90%;
+}
+
+#bmi_classification {
+	font-size: 0.75rem;
+	font-weight: 600;
+}
+#bmiResult{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 1.5rem;
+}
+.descryption{
+	text-align: left;
+	padding-right: 1rem;;
+}
+@media (min-width: 768px) {
+	.container {
+		position: relative;
+		width: 100%;
+		padding: 2rem;
+		z-index: 5;
+		border-radius: 40px 400px 400px 40px;
+	}
+	#bmiResult {
+		
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.yourBMI {
+		flex-shrink: 0;
+		flex-grow: 1;
+		flex-basis: 60%;
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+	.descryption{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+}

@@ -1,0 +1,7 @@
+.footer {
+	width: 100%;
+	text-align: center;
+	color: currentColor;
+	font-size: 0.7rem;
+	z-index: 2;
+}

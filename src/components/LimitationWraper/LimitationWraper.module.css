@@ -1,0 +1,95 @@
+.limitations {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 1.5rem;
+}
+.limitations :global(.heading) {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	padding: 1.5rem;
+	text-align: center;
+}
+.limitations :global(h2) {
+	font-size: 2rem;
+}
+
+.limitations :global(.heading) img {
+	display: none;
+}
+@media (min-width: 768px) {
+	.limitations {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		justify-content: center;
+		column-gap: 1rem;
+		row-gap: 2rem;
+		justify-content: center;
+		align-items: stretch;
+	}
+	.limitations :global(.heading) {
+		grid-column: span 4;
+	}
+	.limitations :global(.card) {
+		grid-column: span 2;
+	}
+	.limitations :global(.card:nth-last-child(1):nth-child(even)) {
+		grid-column: 2 / span 2;
+	}
+}
+@media (min-width: 1024px) {
+	.limitations {
+		width: clamp(1000px, 80%, 1440px);
+		grid-template-columns: repeat(3, 14% 8% 8%);
+		grid-template-rows: 15rem 13rem 15rem;
+		column-gap: 2%;
+		row-gap: 2%;
+		margin: 7.5rem 0;
+	}
+
+	.limitations :global(.heading) {
+		grid-column: 1 / span 4;
+		grid-row: 1/2;
+		align-items: flex-start;
+		text-align: left;
+		position: relative;
+	}
+	.limitations :global(.heading) img {
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 20%;
+	}
+	.limitations :global(.heading) h2 {
+		font-size: 3rem;
+	}
+	.limitations :global(h2) {
+		font-size: 1.25rem;
+	}
+
+	.limitations :global(.card:nth-child(2)) {
+		grid-column: 6 / span 3;
+		grid-row: 1/2;
+	}
+	.limitations :global(.card:nth-child(3)) {
+		grid-column: 4 / span 3;
+		grid-row: 2/3;
+		margin-left: 16px;
+	}
+	.limitations :global(.card:nth-child(4)) {
+		grid-column: 7 / span 3;
+		grid-row: 2/3;
+	}
+
+	.limitations :global(.card:nth-child(5)) {
+		grid-column: 3 / span 3;
+		grid-row: 3/4;
+	}
+	.limitations :global(.card:nth-last-child(1):nth-child(even)) {
+		grid-column: 6 / span 3;
+	}
+}

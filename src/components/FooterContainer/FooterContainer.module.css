@@ -1,0 +1,5 @@
+.container {
+	background-color: var(--DarkElecticBlue);
+	width: 100%;
+	color: var(--Borders);
+}

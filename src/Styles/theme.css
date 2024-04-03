@@ -1,0 +1,38 @@
+@import "./css_reset.css";
+@import "./AppStyles.css";
+:root {
+	--Blue: hsl(227, 92%, 58%);
+	--Gunnmetal: hsl(215, 31%, 21%);
+	--DarkElecticBlue: hsl(215, 17%, 45%);
+	--Borders: hsl(200, 24%, 88%);
+	--Pure_White: hsl(0, 0%, 100%);
+	--Hero_bg_gradient: linear-gradient(
+		290.1deg,
+		#d6e6fe 0%,
+		rgba(214, 252, 254, 0) 100%
+	);
+	--Hero_Result_bg_gradient: linear-gradient(90deg, #345ff7 0%, #587dff 100%);
+	--form-control-color: rebeccapurple;
+	--Tips_bg_Gradient: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
+}
+
+@font-face {
+	font-family: "Inter";
+	src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+	font-weight: 400 600 1000;
+}
+
+body {
+	font-size: 16px;
+	font-family: Inter;
+	height: 100%;
+	color: var(--Gunnmetal);
+}
+#root {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+

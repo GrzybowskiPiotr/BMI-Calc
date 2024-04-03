@@ -1,0 +1,27 @@
+.vector_right {
+	position: absolute;
+	right: 0;
+	bottom: -55%;
+}
+h1 {
+	font-size: 1.5rem;
+}
+h2 {
+	font-size: 0.9rem;
+}
+.headingS {
+	line-height: 110%;
+	font-size: 1.25rem;
+}
+.headingM {
+	line-height: 110%;
+	font-size: 1.5rem;
+}
+.headingL {
+	line-height: 110%;
+	font-size: 3rem;
+}
+.headingXL {
+	line-height: 110%;
+	font-size: 4rem;
+}
