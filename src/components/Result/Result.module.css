@@ -1,10 +1,5 @@
 .container {
 	width: 100%;
-	/* display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 2rem;
-	align-items: flex-start; */
 	padding: 2rem;
 	background: var(--Hero_Result_bg_gradient);
 	border-radius: 1rem;
